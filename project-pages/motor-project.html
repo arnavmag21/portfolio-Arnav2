@@ -1,0 +1,169 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../assets/images/me.jpg" />
+     <title>Arnav's Portfolio</title>
+    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <!-- 
+          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+
+          (this should be the same across all pages)
+         -->
+        <span class="nav-title">Arnav's Portfolio</span>
+        <!-- 
+          TODO - Change the email after 'mailto:' to your email address for contact 
+        
+          (this should be the same across all pages)
+        -->
+        <a class="button" href="mailto:arnavmag@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">Mila Electric Super Car</div>
+        <div class="body-text">The goal of project Mila is to design and build an electric super car that will break the record for longest distance on a single charge, 1000+ miles.</div>
+        <image class="project-header-image" src="../assets/images/invertmotor.jpg">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <!-- 
+        TODO
+
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">Project Mila is a long-term project that is still ongoing. Right now, I am working on the design of the motor cooling system. Some of my largest completed projects on the car include the inverter motor mount, wheel spacers,the front crash structure, and cooling testing procedure. Each of these projects involved both design and hands-on manufacturing, as well as integrating the parts into the vehicle.</div>
+          <div class="body-text">The inverter motor mount project started by taking detailed measurements of the battery box and modeling it in SolidWorks to ensure proper fitment. After evaluating the available space in the vehicle, I decided to design a temporary motor mount using the battery box lid, as it provided the most efficient use of space. To create this temporary solution, I fabricated a custom lid out of wood. I used a table saw to cut the material into rectangular sections sized to fit over the battery box with a tight transition fit. The pieces were then assembled using drilled fastener holes, wood glue, and wood screws, resulting in a stable mounting surface for the inverter motor during early testing.</div>
+          <div class="body-text">My second major project was the design and manufacture of custom wheel spacers. I first measured the motor dimensions and created a wheel spacer design in SolidWorks to match the required offsets. I then 3D printed a prototype spacer to verify fitment with the wheels and motor assembly. Once the design was confirmed, I manufactured the final spacers from aluminum stock using a water jet. The parts were finished on a lathe to remove excess material, achieve final dimensions, and improve surface finish.</div>
+          <div class="body-text">My most recent completed project was assembling and installing the front crash structure. This required removing the front radiator and installing honeycomb aluminum blocks to improve energy absorption. I also cut and installed a PVC impact plate using a band saw to match the front geometry of the car.</div>
+          <div class="body-text">Alongside these mechanical and manufacturing projects, I designed a cooling flow rate and pressure test procedure to evaluate the performance of the cooling system. The procedure outlines how to instrument the cooling loop with flow meters, pressure sensors, and temperature measurements, and defines baseline and performance testing at different pump speeds. It also includes leak and system integrity checks, with the goal of using the collected data to identify inefficiencies and guide future cooling system design decisions. </div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/invertmotor.jpg" class="gallery-image">
+              <span class="image-caption">Inverter Motor Mount.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/crash.jpg" class="gallery-image">
+              <span class="image-caption">Crash Structure.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/wheelspacer.jpeg" class="gallery-image">
+              <span class="image-caption">3-D print Wheel Spacer.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/waterjet.jpeg" class="gallery-image">
+              <span class="image-caption">Water Jet cutting Aluminum Stock.</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/arnavmagadala/">
+        <image src="../assets/icons/linkedin-svgrepo-com.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:arnavmag@gmail.com">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
